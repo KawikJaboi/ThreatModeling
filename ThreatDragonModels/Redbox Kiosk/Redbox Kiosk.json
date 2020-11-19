@@ -220,15 +220,171 @@
                 "height": 80
               },
               "position": {
-                "x": 608,
-                "y": 59
+                "x": 595,
+                "y": 80
               },
               "angle": 0,
               "id": "236cf8c2-b1bd-4ca0-b3b6-b4e1a85260d3",
               "z": 7,
+              "hasOpenThreats": false,
               "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
                 "text": {
-                  "text": "store 6"
+                  "text": "Payment Queue"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "d62d3c87-11e3-475d-8ceb-c98b8942ebe8"
+              },
+              "target": {
+                "id": "236cf8c2-b1bd-4ca0-b3b6-b4e1a85260d3"
+              },
+              "vertices": [
+                {
+                  "x": 525,
+                  "y": 126
+                }
+              ],
+              "id": "a5c83ab6-0d05-4cd6-9266-d63d065b592e",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5830830993467973,
+                    "offset": -0.9374663311678638
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Put payment",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 452,
+                "y": 114
+              },
+              "target": {
+                "x": 538,
+                "y": 198
+              },
+              "vertices": [
+                {
+                  "x": 462,
+                  "y": 176
+                }
+              ],
+              "id": "7a566742-231d-44bc-b1ab-85184727a437",
+              "z": 9,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 637,
+                "y": 245
+              },
+              "angle": 0,
+              "id": "43344065-c1c8-43b8-882a-fff163d7c0b5",
+              "z": 10,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Payment\nassociate"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "236cf8c2-b1bd-4ca0-b3b6-b4e1a85260d3"
+              },
+              "target": {
+                "id": "43344065-c1c8-43b8-882a-fff163d7c0b5"
+              },
+              "vertices": [],
+              "id": "3fee316a-4c98-458e-b1bc-2405b3f765ed",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Payment",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 358,
+                "y": 445
+              },
+              "angle": 0,
+              "id": "62ab1a41-c17e-41ad-ab30-33205c888243",
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Database"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             }
@@ -236,7 +392,7 @@
         },
         "size": {
           "height": 590,
-          "width": 790
+          "width": 1788
         }
       }
     ]

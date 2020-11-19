@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "title": "Redbox Kiosk",
+    "owner": "Kawika Jacang",
+    "description": "The Redbox DVD Rental Kiosk allows customers to borrow movie or video game disks from its disk library for a certain period of time. A customer who wants a rental starts by interacting with the kiosk in someway (tapping screen, pressing the button). The customer is then shown available DVD rentals and can choose any available DVD. Once renal(s) is chosen, The customer is prompted to pay for the rental. Using their preferred payment method, the customer inserts payment into the kiosk. The kiosk interacts with another server associated with the payment method to authenticate and confirm payment. Once there is confirmation, a machine within the kiosk finds the selected DVD(s) and distributes through a port on the kiosk. After rental period is over, the customer returns the DVD by first scanning a unique DVD barcode to confirm the correct disk is brought back. Once confirmation is received, the kiosk prompts the customer to place rental(s) back into the kiosk through another port. An internal machine then finds the correct spot for the DVD and places it there"
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Kawika Jacang"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Kiosk Model",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}

@@ -369,8 +369,8 @@
                 "height": 80
               },
               "position": {
-                "x": 358,
-                "y": 445
+                "x": 314,
+                "y": 432
               },
               "angle": 0,
               "id": "62ab1a41-c17e-41ad-ab30-33205c888243",
@@ -385,6 +385,252 @@
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "d62d3c87-11e3-475d-8ceb-c98b8942ebe8"
+              },
+              "target": {
+                "id": "62ab1a41-c17e-41ad-ab30-33205c888243"
+              },
+              "vertices": [
+                {
+                  "x": 412,
+                  "y": 336
+                }
+              ],
+              "id": "5614b68a-56bf-4b9d-bb83-f8e930b80dab",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Queries",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "62ab1a41-c17e-41ad-ab30-33205c888243"
+              },
+              "target": {
+                "id": "d62d3c87-11e3-475d-8ceb-c98b8942ebe8"
+              },
+              "vertices": [
+                {
+                  "x": 331,
+                  "y": 341
+                }
+              ],
+              "id": "119600fe-0898-4fae-8a85-aebb6708ba98",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.6098061769909681,
+                    "offset": -2.0798407261862915
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Kiosk query results",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "62ab1a41-c17e-41ad-ab30-33205c888243"
+              },
+              "target": {
+                "id": "43344065-c1c8-43b8-882a-fff163d7c0b5"
+              },
+              "vertices": [
+                {
+                  "x": 559,
+                  "y": 382
+                }
+              ],
+              "id": "95864477-9172-476d-95ec-53071807a70e",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.6609782604609318,
+                    "offset": -2.282527409851831
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Payment query\nresults",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 15,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "43344065-c1c8-43b8-882a-fff163d7c0b5"
+              },
+              "target": {
+                "id": "62ab1a41-c17e-41ad-ab30-33205c888243"
+              },
+              "vertices": [
+                {
+                  "x": 507,
+                  "y": 333
+                }
+              ],
+              "id": "704637a6-7fa8-492d-8832-68cfe5cd56f2",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4531281902489303,
+                    "offset": 0.5760764923831354
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Payment queries",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 16,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 273,
+                "y": 399
+              },
+              "target": {
+                "x": 541,
+                "y": 426
+              },
+              "vertices": [
+                {
+                  "x": 415,
+                  "y": 371
+                }
+              ],
+              "id": "2f5bc770-f682-4497-b3fd-4461340d734e",
+              "z": 17,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 595,
+                "y": 437
+              },
+              "angle": 0,
+              "id": "09eea862-16b5-49b5-a363-cab45c515d72",
+              "z": 18,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Payment config"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "09eea862-16b5-49b5-a363-cab45c515d72"
+              },
+              "target": {
+                "id": "43344065-c1c8-43b8-882a-fff163d7c0b5"
+              },
+              "vertices": [],
+              "id": "727c99cb-d156-4b9e-8b5a-847f977404cd",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Read Payment config",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 19,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             }

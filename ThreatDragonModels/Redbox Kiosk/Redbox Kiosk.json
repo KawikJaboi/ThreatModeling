@@ -14,7 +14,230 @@
       {
         "title": "Kiosk Model",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 346,
+                "y": 184
+              },
+              "angle": 0,
+              "id": "d62d3c87-11e3-475d-8ceb-c98b8942ebe8",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Rental Kiosk"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 124,
+                "y": 40
+              },
+              "angle": 0,
+              "id": "0f75e6a2-c94c-48cb-b90e-6dc784ab577f",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Customer"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "0f75e6a2-c94c-48cb-b90e-6dc784ab577f"
+              },
+              "target": {
+                "id": "d62d3c87-11e3-475d-8ceb-c98b8942ebe8"
+              },
+              "vertices": [
+                {
+                  "x": 206,
+                  "y": 199
+                }
+              ],
+              "id": "c8375cd8-32a1-4169-8e87-8083c9647b6d",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.24717183194647993,
+                    "offset": -5.967843834557015
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Rental request",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "0f75e6a2-c94c-48cb-b90e-6dc784ab577f"
+              },
+              "target": {
+                "id": "d62d3c87-11e3-475d-8ceb-c98b8942ebe8"
+              },
+              "vertices": [
+                {
+                  "x": 311,
+                  "y": 160
+                }
+              ],
+              "id": "3de4c861-a318-49b6-bd70-902765d6478d",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.2851849843398454,
+                    "offset": -0.8972480891755246
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Return request",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "d62d3c87-11e3-475d-8ceb-c98b8942ebe8"
+              },
+              "target": {
+                "id": "0f75e6a2-c94c-48cb-b90e-6dc784ab577f"
+              },
+              "vertices": [
+                {
+                  "x": 374,
+                  "y": 83
+                }
+              ],
+              "id": "c444f5a0-3fa5-4fa1-8246-68dd9781616d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Request result",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 217,
+                "y": 266
+              },
+              "target": {
+                "x": 415,
+                "y": 146
+              },
+              "vertices": [
+                {
+                  "x": 297,
+                  "y": 163
+                }
+              ],
+              "id": "c6b03529-4d47-41b2-b1d3-20f533043b48",
+              "z": 6,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 608,
+                "y": 59
+              },
+              "angle": 0,
+              "id": "236cf8c2-b1bd-4ca0-b3b6-b4e1a85260d3",
+              "z": 7,
+              "attrs": {
+                "text": {
+                  "text": "store 6"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       }
     ]
   }
